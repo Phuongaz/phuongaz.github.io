@@ -7,6 +7,7 @@
 body {
     font-family: 'Roboto', sans-serif;
     background: linear-gradient(to right, #f2f2f2, #0cb7d9);
+    margin: 0;
 }
 
 .profile-card {
@@ -75,4 +76,20 @@ iframe {
 .fas {
     font-size: 20px;
     margin-right: 5px;
+}
+
+.additional-links {
+    text-align: center;
+    margin-top: 20px;
+}
+
+.additional-links a {
+    text-decoration: none;
+    color: #007BFF;
+    margin: 0 10px;
+    font-size: 18px;
+}
+
+.additional-links a:hover {
+    text-decoration: underline;
 }
